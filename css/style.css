@@ -511,9 +511,23 @@ form {
 }
 .icon
 {
-  width: 20%;
-  margin: 0 40%;
+  width: 26%;
+  margin: 0 38%;
 }
+
+
+
+#arrow i {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#arrow i:hover {
+  top: -10px;
+}
+
+
+
 
 
 
